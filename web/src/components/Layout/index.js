@@ -6,8 +6,7 @@ export default function Layout({ children }) {
   return (
     <Fragment>
       <div className="w-full">
-        <Navbar handleOpen={handleOpen} open={drawerOpen} />
-        <Drawer handleClose={handleClose} open={drawerOpen} />
+        <Navbar />
         <main>{children}</main>
       </div>
     </Fragment>

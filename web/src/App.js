@@ -11,7 +11,7 @@ function App() {
     <Layout>
       <div>
         <Button onClick={handleOpen}>Modal</Button>
-        <Modal open={open} handleClose={handleClose} />
+        <Modal open={open} handleClose={handleClose} fullScreenMobile />
       </div>
     </Layout>
   );
