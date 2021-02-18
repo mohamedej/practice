@@ -1,5 +1,4 @@
-import React, { Fragment, useState } from "react";
-import Drawer from "./Drawer";
+import React, { Fragment } from "react";
 import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
