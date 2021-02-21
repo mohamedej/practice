@@ -7,9 +7,9 @@ function Card({ bgColor, pic, float }) {
       className={`w-full  flex my-8 ${float ? "justify-start" : "justify-end"}`}
     >
       <motion.div
-        className={`w-6/12 p-2 flex h-96  rounded-xl ${bgColor}  justify-around items-center `}
+        className={`w-12/12  md:w-6/12 p-2 flex h-96  rounded-xl ${bgColor}  justify-around items-center `}
       >
-        <motion.div className="w-6/12 md:w-3/12">
+        <motion.div className="w-4/12 md:w-4/12">
           <motion.img
             animate={{ y: [0, 10] }}
             transition={{ y: { duration: 1, yoyo: Infinity, ease: "linear" } }}
